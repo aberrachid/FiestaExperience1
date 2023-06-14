@@ -1,0 +1,35 @@
+﻿@page
+@model CustomersModel
+@{
+    ViewData["Title"] = "Customers";
+    Layout = "/Pages/Shared/_Layout.cshtml";
+}
+
+<h1>Customers</h1>
+
+<div class="card">
+    <div class="card-body">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Customer ID</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>John Doe</td>
+                    <td>john.doe@example.com</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Jane Smith</td>
+                    <td>jane.smith@example.com</td>
+                </tr>
+                <!-- Add more customer rows as needed -->
+            </tbody>
+        </table>
+    </div>
+</div>
